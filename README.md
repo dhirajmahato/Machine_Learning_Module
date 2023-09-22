@@ -34,15 +34,26 @@ Other techniques
 5. Clustering Algorithms : K-Means, Hierarchical clustering
 6. Dimensionality Reduction Algorithms: PCA (linear), t-SNE(non linear)
 
-## ML Table
+## Supervised ML Table
+### Regression
+Here, the model predicts the relationship between input features (independent variables) and a continuous output variable.
 | Machine Learning Models | Concepts                  | Key Components           | Common Implementations |
 |------------------------|--------------------------|--------------------------|------------------------|
 | Linear Regression      | parametric model, assume our data is linear, loss function |
-| Decision Trees         | 
-| Random Forests         | 
-| Support Vector Machines| 
-| Neural Networks        | 
 
+**Evaluation Metrics**: 
+Regression models are typically evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²), among others.
+
+### Classification:
+
+| Machine Learning Models | Concepts                  | Key Components           | Common Implementations |
+|------------------------|--------------------------|--------------------------|------------------------|
+| Logistics Regression   | 
+| Decision Tree          | 
+| Support Vector Machines| 
+
+**Evaluation Metrics:**
+Classification models are evaluated using metrics such as accuracy, precision, recall, F1-score, and the confusion matrix, depending on the problem and class distribution.
 
 ## Structuring ML 
 
