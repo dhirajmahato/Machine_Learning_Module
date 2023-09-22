@@ -37,8 +37,8 @@ Other techniques
 ## Supervised ML Table
 ### Regression
 Here, the model predicts the relationship between input features (independent variables) and a continuous output variable.
-| Machine Learning Models | Concepts                  | Key Components           | Common Implementations |
-|------------------------|--------------------------|--------------------------|------------------------|
+| Machine Learning Models | Concepts                  | src code                |
+|------------------------|--------------------------|------------------------|
 | Linear Regression      | parametric model, assume our data is linear, loss function |
 
 **Evaluation Metrics**: 
@@ -46,8 +46,8 @@ Regression models are typically evaluated using metrics such as Mean Absolute Er
 
 ### Classification:
 
-| Machine Learning Models | Concepts                  | Key Components           | Common Implementations |
-|------------------------|--------------------------|--------------------------|------------------------|
+| Machine Learning Models | Concepts                  |  src code                |
+|------------------------|--------------------------|--------------------------|
 | Logistics Regression   | 
 | Decision Tree          | 
 | Support Vector Machines| 
