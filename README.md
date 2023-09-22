@@ -19,10 +19,12 @@ based on content
     - Naïve Bayes, Bayesian networks, Markov random fields, AutoEncoders, GANs.
 
 based on parameter
-1. parametric
-2. Non-parametric
+1. **Parametric**: parametric model summarizes data with a set of fixed-size parameters (independent on the number of instances of training). Eg: Linear, Logistic Regression, linear SVM (wTx + b = 0), Linear Discriminant Analysis, Perceptron, Naive Bayes, Simple Neural Networks.
+2. **Non-parametric**: which do not make specific assumptions about the type of the mapping function. The word nonparametric does not mean that the value lacks parameters existing in it, but rather that the parameters are adjustable and can change. eg:  k-Nearest Neighbors, Decision Trees, SVMs.
 
 A **paramter** is something that is estimated from the training data and change (learnt) while training a model. They can be weights, coefficients, support vectors etc.
+
+**Maximumm Liklihood Estimation (MLE)** is a method that determines values of the parameters of a model such that they maximise the likelihood of observed data given a probability distribution.
 
 ## Structuring ML 
 
@@ -31,4 +33,9 @@ A **paramter** is something that is estimated from the training data and change 
 ## ML Algos
 
 ![image](https://github.com/dhirajmahato/Machine-Learning-Models/assets/33785298/37e5490f-084c-4ca1-9314-95a2e800c968)
+
+
+src:
+https://github.com/nvmcr/DataScience_HandBook/tree/main/Machine_Learning
+
 
