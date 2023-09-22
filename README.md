@@ -1,11 +1,19 @@
 Here, I will add Machine Learning Models and usage and Explanations
 
-## Types of ML
+## Types/family of ML
 based on Human supervision:
 1. Supervised
-2. Semisupervised
-3. Unsupervised
+2. Unsupervised
+3. Semisupervised
 4. Reinforcement
+
+based on techniques
+1. Ensemble Learning Algorithms: Bagging, Boosting, stacking
+2. Deep Learning Algorithms: CNN, RNN
+3. Bayesian Learning Algorithms : Naive Bayes, Bayesian Networks
+4. Instance-Based Learning Algorithms: k-Nearest Neighbors (k-NN), Locally Weighted Regression (LWR)
+5. Clustering Algorithms : K-Means, Hierarchical clustering
+6. Dimensionality Reduction Algorithms: PCA (linear), t-SNE(non linear)
 
 based on data ingestion
 1. batch processing
@@ -26,6 +34,16 @@ A **paramter** is something that is estimated from the training data and change 
 
 **Maximumm Liklihood Estimation (MLE)** is a method that determines values of the parameters of a model such that they maximise the likelihood of observed data given a probability distribution.
 
+## ML Table
+| Machine Learning Models | Concepts                  | Key Components           | Common Implementations |
+|------------------------|--------------------------|--------------------------|------------------------|
+| Linear Regression      | parametric model, assume our data is linear, loss function |
+| Decision Trees         | 
+| Random Forests         | 
+| Support Vector Machines| 
+| Neural Networks        | 
+
+
 ## Structuring ML 
 
 ![image](https://github.com/dhirajmahato/Machine-Learning-Models/assets/33785298/2fab00d6-ea7b-43dd-9e33-9fae5a0f3446)
@@ -37,5 +55,7 @@ A **paramter** is something that is estimated from the training data and change 
 
 src:
 https://github.com/nvmcr/DataScience_HandBook/tree/main/Machine_Learning
+https://github.com/dhirajmahato/Machine-Learning-Notebooks
+
 
 
