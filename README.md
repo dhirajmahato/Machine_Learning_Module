@@ -37,17 +37,19 @@ Other techniques
 ## Supervised ML Table
 ### Regression
 Here, the model predicts the relationship between input features (independent variables) and a continuous output variable.
-| Machine Learning Models | Concepts                  | src code                |
-|------------------------|--------------------------|------------------------|
-| Linear Regression      | parametric model, assume our data is linear, loss function |
+| Machine Learning Models | Concepts                  |      Usecases           |
+|------------------------|--------------------------|---------------------|
+| [Linear Regression ](https://github.com/dhirajmahato/Interview-Prepartion-Data-Science/blob/master/Interview%20Preparation-%20Day%202-%20Linear%20Regression.ipynb)     | There are four assumptions associated with a linear regression model:<br /> 1. Linearity: The relationship between X and the mean of Y is linear.<br /> 2. Homoscedasticity: The variance of residual is the same for any value of X.<br /> 3. Independence: Observations are independent of each other.<br /> 4. Normality: For any fixed value of X, Y is normally distributed. <br /> ![image](https://github.com/dhirajmahato/Machine_Learning_Module/assets/33785298/39614731-cb0a-4bbc-ad56-19e9ac7dca93)<br/>- **Least Squares** as the loss function.<br/> - Feature scaling is required <br /> - Sensitive to missing value| Good for sparse, high-dimensional data <br /> 1. Advance House Price Prediction <br /> 2. Flight Price Prediction |
+| Polynomial regression  |more the degree of the polynomial the better is the fit but the more is the issue of overfitting.  |    |
+
 
 **Evaluation Metrics**: 
 Regression models are typically evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²), among others.
 
 ### Classification:
 
-| Machine Learning Models | Concepts                  |  src code                |
-|------------------------|--------------------------|--------------------------|
+| Machine Learning Models | Concepts                  |   Usecases            |
+|------------------------|--------------------------|------------------------|
 | Logistics Regression   | 
 | Decision Tree          | 
 | Support Vector Machines| 
