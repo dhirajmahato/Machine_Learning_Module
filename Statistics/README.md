@@ -10,9 +10,9 @@
 
 #### 2. Variable Data Types, Classification, Scales
 - Data can be classified into 3 different types of data:
-1. **Cross-Sectional Data:** collected on several variables at the same point in time.   
-2. **Time Series Data:** collected on a single variable, such as demand for smartphones over several time intervals (weekly, monthly etc).
-3. **Panel or Longitudinal Data:** collected on several variables (multiple dimensions) over several time intervals. such as gross domestic product (GDP), Gini index, and unemployment rate collected forseveral countries over several years.
+   1. **Cross-Sectional Data:** collected on several variables at the same point in time.   
+   2. **Time Series Data:** collected on a single variable, such as demand for smartphones over several time intervals (weekly, monthly etc).
+   3. **Panel or Longitudinal Data:** collected on several variables (multiple dimensions) over several time intervals. such as gross domestic product (GDP), Gini index, and unemployment rate collected forseveral countries over several years.
 - observational data and experimental data (for establishing causal relationship). 
 - Structured (Matrix) or Unstructured (audio, image ..)
 - Structured data may contain variables that are either numeric or alpha numeric and may follow different scales of measurement
