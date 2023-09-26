@@ -29,6 +29,22 @@ industry type (manufacturing, healthcare, banking, insurance, and finance)
 
 
 #### 3. Measures of Central Tendency
+
+Central tendency is a statistical measure that represents the center or average value of a dataset. Mean, median and mode are the three measures of central tendency
+1. **Mean** - arithmetic average value of the data, an important property of mean is that the summation of deviation of all records from the mean is zero.
+   - Making decisions solely based on mean value is not advisable since variability in the data can be more critical than the mean.
+   - Another issue with mean is that it is affected significantly by outliers.
+2. **Median** - Median is the value that divides the data into two equal parts.
+   - Median is much more stable than the mean value, as adding a new observation may not change the median significantly.
+   - drawback of median is that it is not calculated using the entire dataset like in the case of mean.
+3. **Mode** - the most frequently occurring value in the dataset.
+   - Mode is the only measure of central tendency which is valid for qualitative (nominal) variables, since the measures mean and median for nominal scale variables are meaningless.
+
+- If the data is symmetrically distributed then Mean = Median = Mode
+- If the distribution is Skewed, then Median is the best measure of central tendency Mean is most sensitive for skewed data.
+- Mode is the best measure for categorica
+
+
 #### 4. Measures of Dispersion
 #### Types
 1. Descriptive statistics are used to summarize and describe the characteristics of a dataset. 
