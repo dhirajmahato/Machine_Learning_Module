@@ -42,10 +42,16 @@ Central tendency is a statistical measure that represents the center or average 
 
 - If the data is symmetrically distributed then Mean = Median = Mode
 - If the distribution is Skewed, then Median is the best measure of central tendency Mean is most sensitive for skewed data.
-- Mode is the best measure for categorica
-
+- Mode is the best measure for categorical data
 
 #### 4. Measures of Dispersion
+
+Dispersion or variability describes how items are distributed from each other and the centre of a distribution. <br/>There are 4 methods to measure the dispersion of the data:
+- Range
+- Interquartile Range
+- Variance
+- Standard Deviation (Best Measure)
+  
 #### Types
 1. Descriptive statistics are used to summarize and describe the characteristics of a dataset. 
 2. Predictive
@@ -53,8 +59,32 @@ Central tendency is a statistical measure that represents the center or average 
 4. Inferential statistics are used to draw conclusions about a population based on a sample of data. Techniques like hypothesis testing and confidence intervals are examples of inferential statistics.
 
 ### D. Statistics Distribution
-Data distribution is the **frequency distribution** of individual values in a data set.
-
-**Normal Distribution**
+- Data distribution is the **frequency distribution** of individual values in a data set.
+  
+- **Probability distributions** describe the likelihood of different outcomes in a random event.
+   - Discrete distributions are used when the variable can take on a countable number of distinct values, such as the binomial distribution for the number of successes in a fixed number of trials. 
+   - Continuous distributions are used when the variable can take on any value within a range, such as the normal distribution for variables like height or weight.
+- **Normal Distribution**
+   - The normal distribution (or Gaussian distribution) is a continuous probability distribution that is symmetric and bell-shaped.
+   - It is characterized by its mean (μ) and standard deviation (σ), which determine the location and spread of the distribution, respectively.
+   - Example: The heights of adult males in a population often follow a normal distribution. If the mean height is 175 cm and the standard deviation is 6 cm, you can use the normal distribution to calculate the probability of finding a male with a height between certain values or above a  certain height.
+- **Binomial distribution** describes the probability of obtaining a specific number of successes in a fixed number of independent trials, each with the same probability of success.
+   - It is characterized by two parameters: the number of trials (n) and the probability of success (p).
+   - Example: Tossing a fair coin h 10 times can be modeled using a binomial distribution. The probability of getting exactly 5 heads (successes) in 10 coin flips can be calculated using the binomial distribution formula.
+ 
+- **Poisson Distribution**
+- **Exponential Distribution**
 
 ### E. Statistical Inference
+#### 1. Hypothesis Testing (Null and Alternative Hypotheses):
+Hypothesis testing is a statistical method used to make inferences about a population based on sample data.
+
+Common assumptions include:
+- Independence: The observations in the sample are independent of each other.
+- Random sampling: The sample is representative of the population being studied.
+- Normality: The data or test statistics follow a normal distribution.
+- Homogeneity a of variance: The variance of the variables is equal across groups being compared.
+
+#### 2. Type I and Type II Errors:
+#### 3. Confidence Intervals:
+#### 4. P-values:
