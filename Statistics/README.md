@@ -4,8 +4,12 @@
 ### A. Introduction
 
 #### 1. Population and Sample
-- **Population**:  Population refers to the entire group of individuals, objects, or events that you want to study or make inferences about
-- **Sample**: A sample is a subset of data from a larger data set called population.
+- **Population**: Population is the set of all possible observations or records (often called cases, subjects, or data points) for a given context of the problem.
+- **Sample**: A sample is a subset of data from a larger data set called population. eg: the opinion polls are based on opinions expressed by a subset of voters called sample.
+
+In many real-life problems, we make inferences about the population based on sample data or based on multiple samples for cross validation.
+There are many challenges in sampling (process of selecting a sample from the population). An incorrect sample may result in bias and incorrect inference about the population.
+
 - *Random Sampling* is a process in which each member in population has equal chance of being chosen for sample.
 
 #### 2. Variable Data Types, Classification, Scales
