@@ -9,6 +9,13 @@
 - *Random Sampling* is a process in which each member in population has equal chance of being chosen for sample.
 
 #### 2. Variable and Data Types
+1. Structured or Unstructured
+2. Numerical or categorical
+3. Different measurement scales of variables like
+   - *Quantitative:* nominal, ordinal;
+   - *Qualitative:* interval and ratio.
+4. Based on type, how the data can be grouped as cross-sectional, time-series and panel data.
+
 #### 3. Measures of Central Tendency
 #### 4. Measures of Dispersion
 #### Types
