@@ -58,6 +58,8 @@ Regression models are typically evaluated using metrics such as Mean Absolute Er
 | Decision Tree          | 
 | Random Forest (Ensemble Learning)|
 | Support Vector Machines| 
+| Naive Bayes            |
+| K-Nearest Neighbour    |
 
 **Evaluation Metrics:**
 Classification models are evaluated using metrics such as accuracy, precision, recall, F1-score, and the confusion matrix, depending on the problem and class distribution.
