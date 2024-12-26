@@ -11,6 +11,7 @@ based on Human supervision:
 based on data ingestion
 1. batch processing
 2. online processing
+![image](https://github.com/user-attachments/assets/a7af648e-25f5-498d-8975-e840212c2e29)
 
 based on content
 1. **Discriminative**: A Discriminative model ‌models the decision boundary between the classes (conditional probability distribution p(y|x)).
