@@ -4,8 +4,9 @@ Here, I will add Machine Learning Models and usage and Explanations
 based on Human supervision:
 1. Supervised
 2. Unsupervised
-3. Semisupervised
+3. Esemble Learning
 4. Reinforcement
+5. Neural Networks
 
 based on data ingestion
 1. batch processing
