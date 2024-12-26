@@ -56,6 +56,7 @@ Regression models are typically evaluated using metrics such as Mean Absolute Er
 |------------------------|--------------------------|------------------------|
 | Logistics Regression   | Assumptions: <br/> 1. The outcome is binary<br/> 2. Linear relationship between the logit of the outcome and the predictors. <br/> Logit function: $\text{logit}(p) = \log\left(\frac{p}{1-p}\right)$ <br/> $\(p\)$: probability of the outcome<br/> 3. No outliers/extreme values in the continuous predictors<br/> 4. No multicollinearity among the predictors <br/> <br/> Sigmoid/Logistic Function: S-shaped curve that takes any real number and maps it between 0 and 1 $f(x)=\frac{1}{1+e^{-x}}$ <br/> <br/> - Feature scaling is required <br /> - Sensitive to missing value |
 | Decision Tree          | 
+| Random Forest           |
 | Support Vector Machines| 
 
 **Evaluation Metrics:**
