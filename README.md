@@ -62,6 +62,12 @@ Regression models are typically evaluated using metrics such as Mean Absolute Er
 | Naive Bayes            |
 | K-Nearest Neighbour    |
 
+## B. Unsupervised ML Table
+### Clustering
+Here, the model predicts the relationship between input features (independent variables) and a continuous output variable.
+| Machine Learning Models | Concepts                  |      Usecases           |
+|------------------------|--------------------------|---------------------|
+
 
 **Evaluation Metrics:**
 Classification models are evaluated using metrics such as accuracy, precision, recall, F1-score, and the confusion matrix, depending on the problem and class distribution.
