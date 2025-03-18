@@ -67,10 +67,10 @@ Classification models are evaluated using metrics such as accuracy, precision, r
 
 ## B. Unsupervised ML Table
 ### Clustering
-Here, the model predicts the relationship between input features (independent variables) and a continuous output variable.
+Various types of clustering algorithms exist, including exclusive, overlapping, hierarchical and probabilistic.
 | Machine Learning Models | Concepts                  |      Usecases           |
 |------------------------|--------------------------|---------------------|
-| K-Means CLustering     |
+| K-Means CLustering     | K-means is an iterative, centroid-based clustering algorithm that partitions a dataset into similar groups based on the distance between their centroids (means or median : depends on characterstics of the dataset.) <br/> Cons: <br/> -sensitive to initial conditions and outliers. |market segmentation, document clustering, image segmentation and image compression|
 
 
 
