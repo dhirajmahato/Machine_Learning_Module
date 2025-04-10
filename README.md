@@ -58,7 +58,7 @@ Regression models are typically evaluated using metrics such as Mean Absolute Er
 | Logistics Regression   | Assumptions: <br/> 1. The outcome is binary<br/> 2. Linear relationship between the logit of the outcome and the predictors. <br/> Logit function: $\text{logit}(p) = \log\left(\frac{p}{1-p}\right)$ <br/> $\(p\)$: probability of the outcome<br/> 3. No outliers/extreme values in the continuous predictors<br/> 4. No multicollinearity among the predictors <br/> <br/> Sigmoid/Logistic Function: S-shaped curve that takes any real number and maps it between 0 and 1 $f(x)=\frac{1}{1+e^{-x}}$ <br/> <br/> - Feature scaling is required <br /> - Sensitive to missing value |
 | Decision Tree          | Pros: <br/> 1. Handles categorical data, missing valuses <br/> 2. normalization not needed <br/> 3. can heandle non linear relationship <br/> Cons: <br/> 1. overfitting <br/> 2. need ensemble to improve accuracy |  
 | Random Forest (Ensemble Learning)| 1. ensembling (putting many weak trees together) <br/> 2. bagging (parallel uncorelated trees or estimators) - to take sample of the dataset with replacement |
-| Support Vector Machines| 
+| Support Vector Machines| 1. hyperpane in n dimensional space <br/> 2. handle both linear and nonlinear classification tasks.| |
 | Naive Bayes            |
 | K-Nearest Neighbour    |
 
