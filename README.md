@@ -36,6 +36,14 @@ Other techniques
 
 ### Concepts
 
+**Overfitting**: 
+
+**underfitting**: *high bias (simple assumptions) and low variation (training data doesn't help)*, model is simple to capture underlying patterns <br/>
+caused by: 
+    - Using a linear model on non-linear data.
+    - Not enough features or model parameters.
+    - Too much regularization.
+
 **Maximumm Liklihood Estimation (MLE)** is a method that determines values of the parameters of a model such that they maximise the likelihood of observed data given a probability distribution.
 
 
