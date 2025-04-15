@@ -36,13 +36,22 @@ Other techniques
 
 ### Concepts
 
-**Overfitting**: 
-
-**underfitting**: *high bias (simple assumptions) and low variation (training data doesn't help)*, model is simple to capture underlying patterns <br/>
+**Overfitting**: *low bias (accurately models training data) and high variance (too noisy)*, model is too complex and captures noise as if it were signal. <br/>
+caused by:
+    - Poor-quality data (e.g., noisy, mislabeled, or small dataset) makes this worse.
+    - Too many features or deep networks.
+    - Not enough training data.
+    - Lack of regularization.
+    
+**Underfitting**: *high bias (simple assumptions) and low variance (training data doesn't help)*, model is too simple, unable to capture underlying patterns. <br/>
 caused by: 
     - Using a linear model on non-linear data.
     - Not enough features or model parameters.
     - Too much regularization.
+
+**Bias-Variance Tradeoff**:  low Bias and low variance, Enough high-quality, diverse data. Proper model complexity. Techniques like cross-validation, regularization, and pruning.
+
+
 
 **Maximumm Liklihood Estimation (MLE)** is a method that determines values of the parameters of a model such that they maximise the likelihood of observed data given a probability distribution.
 
