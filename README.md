@@ -51,10 +51,13 @@ caused by:
 
 **Bias-Variance Tradeoff**:  low Bias and low variance, Enough high-quality, diverse data. Proper model complexity. Techniques like cross-validation, regularization, and pruning.
 
-
-
 **Maximumm Liklihood Estimation (MLE)** is a method that determines values of the parameters of a model such that they maximise the likelihood of observed data given a probability distribution.
+- MLE Assumes Errors Are Normally distributed.
 
+Observed_data: H, T, H, H, H, T, H, H, T, H <br/>
+_Probability_: You’re saying, “If I believe p = 0.5, how likely is my observed result?” <br/>Ans:  prob = comb(n, k) * (p ** k) * ((1 - p) ** (n - k)) <br/> Where p = 0.5  # fair coin  
+n = 10   # total tosses   k = 7    # number of heads <br/>
+_MLE_: You’re asking, “What p makes this result most believable?”
 
 ## A. Supervised ML Table
 ### Regression
