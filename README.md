@@ -79,7 +79,7 @@ Regression models are typically evaluated using metrics such as Mean Absolute Er
 | Decision Tree          | Pros: <br/> 1. Handles categorical data, missing valuses <br/> 2. normalization not needed <br/> 3. can heandle non linear relationship <br/> Cons: <br/> 1. overfitting <br/> 2. need ensemble to improve accuracy |  
 | Random Forest (Ensemble Learning)| 1. ensembling (putting many weak trees together) <br/> 2. bagging (parallel uncorelated trees or estimators) - to take sample of the dataset with replacement |
 | Support Vector Machines| 1. optimal hyperplane in n dimensional space <br/> 2.maximizes the margin between the closest data points of opposite classes.  <br/>3. handle both linear and nonlinear classification tasks (kernel functions: transform the data higher-dimensional space to enable linear separation)<br/> Types : 1.linear SVM 2.non linear SVM 3.Support Vector Regressions <br/> <br/> Pros: <br/> - better with high-dimensional and unstructured datasets <br/> cons: <br/> SVMs have to tune for different hyperparameters and can be more computationally expensive.| - text classification tasks <br/> - Image classification |
-| Naive Bayes            |
+| Naive Bayes            | Assumptions: <br/> -independence among features <br/> Pros: <br/> -high-dimensional data <br/> -Robust to irrelevant features <br/> -fast and simple <br/> Cons: <br/> -not for correlated data <br/> -not for high precision | |
 | K-Nearest Neighbour    |
 
 **Evaluation Metrics:**
