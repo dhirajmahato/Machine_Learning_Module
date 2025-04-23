@@ -96,6 +96,11 @@ Various types of clustering algorithms exist, including exclusive, overlapping, 
 1. All data points within a cluster should be similar.
 2. Clusters should be distinct from each other.
 
+### Association Rule Learning:
+
+| Machine Learning Models | Concepts                  |   Usecases            |
+|------------------------|--------------------------|------------------------|
+|
 
 ## Structuring ML 
 
