@@ -100,7 +100,7 @@ Various types of clustering algorithms exist, including exclusive, overlapping, 
 
 | Machine Learning Models | Concepts                  |   Usecases            |
 |------------------------|--------------------------|------------------------|
-|  Apriori algorithm    |    identifies frequent patterns, connections and dependencies among different groups of items called itemsets. | - disease prediction <br/> - market based analysis <br/> - Customer segmentation <br/> - social media group analysis <br/> - fraud detection |
+|  Apriori algorithm    |    Apriori algorithm relies on the insight that adding items to a frequently purchased group can only make it less frequent, not more.| - disease prediction <br/> - market based analysis <br/> - Customer segmentation <br/> - social media group analysis <br/> - fraud detection |
 |  FP-Growth algorithm |    |    |
 | ECLAT algorithm    |      |    |
 
