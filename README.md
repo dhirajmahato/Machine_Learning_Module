@@ -100,7 +100,7 @@ Various types of clustering algorithms exist, including exclusive, overlapping, 
 
 | Machine Learning Models | Concepts                  |   Usecases            |
 |------------------------|--------------------------|------------------------|
-|  Apriori algorithm    |    Apriori algorithm relies on the insight that adding items to a frequently purchased group can only make it less frequent, not more.| - disease prediction <br/> - market based analysis <br/> - Customer segmentation <br/> - social media group analysis <br/> - fraud detection |
+|  Apriori algorithm    |    Apriori algorithm relies on the insight that adding items to a frequently purchased group can only make it less frequent, not more. <br/>- irst identifies the unique items, sometimes referred to as 1-itemsets, in the dataset along with their frequencies.<br/>- it combines the items that appear together with a probability above a specified threshold into candidate itemsets, filtering out infrequent itemset aka **frequent itemset mining**<\br>| - disease prediction <br/> - market based analysis <br/> - Customer segmentation <br/> - social media group analysis <br/> - fraud detection |
 |  FP-Growth algorithm |    |    |
 | ECLAT algorithm    |      |    |
 
