@@ -92,7 +92,8 @@ Various types of clustering algorithms exist, including exclusive, overlapping, 
 | Machine Learning Models | Concepts                  |      Usecases           |
 |------------------------|--------------------------|---------------------|
 | K-Means Clustering     | K-means is an iterative, centroid-based clustering algorithm that partitions a dataset into similar groups based on the distance between their centroids (means or median : depends on characterstics of the dataset.) <br/> Cons: <br/> 1. sensitive to initial conditions and outliers. |market segmentation, document clustering, image segmentation and image compression|
-
+| Hierarchical Clustering |||
+| Gaussian Mixture Models |||
 **Evaluation Metrics:**
 1. All data points within a cluster should be similar.
 2. Clusters should be distinct from each other.
